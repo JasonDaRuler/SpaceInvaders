@@ -7,9 +7,9 @@ from timer import Timer
 from random import randint
 
 class Alien(Sprite):
-    alien_images0 = [pg.image.load(f"images/alien0{n}.png") for n in range(2)]
-    alien_images1 = [pg.image.load(f"images/alien1{n}.png") for n in range(2)]
-    alien_images2 = [pg.image.load(f"images/alien2{n}.png") for n in range(2)]
+    alien_images0 = [pg.image.load(f"images/alien{n}.png") for n in range(1,4)]
+    alien_images1 = [pg.image.load(f"images/alien{n}.png") for n in range(1,4)]
+    alien_images2 = [pg.image.load(f"images/alien{n}.png") for n in range(1,4)]
     alien_images = [alien_images0, alien_images1, alien_images2]
     # alien_explosion_images = []  # fill in explosion images here
 

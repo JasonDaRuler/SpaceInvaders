@@ -14,7 +14,7 @@ class Ship(Sprite):
         self.stats = ai_game.stats
         self.sb = None
 
-        self.image = pg.image.load('images/ship.bmp')
+        self.image = pg.image.load('images/spaceship.png')
         self.rect = self.image.get_rect()
         self.rect.midbottom = self.screen_rect.midbottom
         scr_r = self.screen_rect 

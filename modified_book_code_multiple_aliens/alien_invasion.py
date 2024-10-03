@@ -10,7 +10,6 @@ from button import Button
 from scoreboard import Scoreboard
 from event import Event
 
-
 class AlienInvasion:
     # di = {pg.K_RIGHT: Vector(1, 0), pg.K_LEFT: Vector(-1, 0),
     #       pg.K_UP: Vector(0, -1), pg.K_DOWN: Vector(0, 1),
@@ -78,8 +77,6 @@ class AlienInvasion:
 
             self.clock.tick(60)
         sys.exit()
-
-      
 
 if __name__ == '__main__':
     ai = AlienInvasion()
